@@ -13,7 +13,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          YOLOO
+          hola
         </a>
       </header>
     </div>
