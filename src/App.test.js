@@ -9,5 +9,5 @@ test("renders learn react link", () => {
 
 test("finds the edit text", () => {
   render(<App />);
-  expect(screen.getByText(/edit/i)).toBeInTheDocument();
+  expect(screen.getByText(/hola/i)).toBeInTheDocument();
 });
