@@ -8,10 +8,10 @@ RUN npm install --production
 
 COPY . .
 
-EXPOSE 80
-
 RUN npm run build
 
 FROM nginx:1.21.1
+
+EXPOSE 80
 
 COPY --from=0 /usr/app/build /usr/share/nginx/html
